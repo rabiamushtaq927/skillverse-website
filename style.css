@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(./pexels-alscre-2847648.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.logo{
+    padding: 27px;
+
+}
+.navbar{
+    display: flex;
+
+
+}
+.list{
+    width:50% ;
+    background-color:khaki;
+    display: flex;
+    align-items: center;
+
+}
+.list li{
+    list-style: none;
+    padding: 27px 30px ;
+    border-radius: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    
+}
+.list li:hover{
+    color: rgb(177, 10, 10);
+    cursor: pointer;
+;
+}
+
+
+.list li a{
+    text-decoration: none;
+    color: rgb(199, 17, 17);
+
+}
+.list li a:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.rightnav{
+    background-color:khaki;
+    width:50% ;
+    text-align: right;
+
+}
+#search{
+    padding: 5px ;
+    border: 1px solid black;
+    font-size: 17px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-left: 14%;
+    
+}
+form{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    margin-left: 40px;
+
+}
+form input, form select{
+    width: 100;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius:4px;
+}
+form button{
+    background-color: gray;
+    color: white;
+    padding: 10px ;
+    border: 1px;
+    border-radius:10px ;
+    cursor: pointer;
+    margin-bottom:10px ;
+
+}
+form button:hover{
+    background-color: #1a252f;
+}
+.service-title{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 38px;
+    color: #2c2c54;
+}
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    list-style: none;
+    padding: 40px 60px ;
+}
+.service-list li{
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 00px;
+    box-shadow: 0 5px 20px rgba(0 , 0,0,0.15) ;
+    transition: 0.3s;
+    border-bottom: 4px solid #e8c38a;
+}
+.service-list li:hover{
+    transform: translate(-8px);
+    background: #222;
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 50px;
+    margin-top: 20px;
+}
+.about-h1{
+    font-size: 42px;
+    color: #2c2c54;
+     margin: 0;
+}
+
+.about-p{
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
